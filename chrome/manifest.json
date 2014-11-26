@@ -1,0 +1,29 @@
+﻿{
+    "name": "Arret Sur Images Font Size",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "description": "Extension permettant d'ajouter la gestion de la taille de la police sur les articles de ArretSurImages.net",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+
+    "permissions": [
+        "tabs"
+    ],
+    "page_action": {
+        "default_icon": "icon48.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "content_scripts":[{
+        "matches": ["http://www.arretsurimages.net/articles/*"],
+        "js": ["jquery-1.7.2.js", "link.js"],
+        "run_at": "document_start",
+        "all_frames": true
+    }]
+}
