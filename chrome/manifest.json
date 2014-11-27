@@ -21,8 +21,12 @@
     },
 
     "content_scripts":[{
-        "matches": ["http://www.arretsurimages.net/articles/*"],
-        "js": ["jquery-1.7.2.js", "link.js"],
+        "matches": [
+            "http://www.arretsurimages.net/articles/*",
+            "http://www.arretsurimages.net/breves/*",
+            "http://www.arretsurimages.net/emissions/*"
+        ],
+        "js": ["jquery-1.7.2.js", "fonts.js"],
         "run_at": "document_start",
         "all_frames": true
     }]

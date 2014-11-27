@@ -1,1 +1,10 @@
 *.iml
+node_modules
+
+chrome/*.png
+chrome/jquery*.js
+chrome/fonts.js
+
+safari/gaminglive-hd-link.safariextension/*.png
+safari/gaminglive-hd-link.safariextension/jquery*.js
+safari/gaminglive-hd-link.safariextension/fonts.js

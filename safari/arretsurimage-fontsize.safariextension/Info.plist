@@ -24,13 +24,19 @@
 		<dict>
 			<key>End</key>
 			<array>
-				<string>link.js</string>
+				<string>fonts.js</string>
 			</array>
 			<key>Start</key>
 			<array>
 				<string>jquery-1.7.2.js</string>
 			</array>
 		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://www.arretsurimages.net/articles/*</string>
+			<string>http://www.arretsurimages.net/breves/*</string>
+			<string>http://www.arretsurimages.net/emissions/*</string>
+		</array>
 	</dict>
 	<key>Description</key>
 	<string>Extension permettant d'ajouter la gestion de la taille de la police sur les articles de ArretSurImages.net</string>

@@ -1,0 +1,22 @@
+{
+  "name": "arretsurimages-fontsize",
+  "version": "1.0.0",
+  "description": "Extension permettant d'ajouter la gestion de la taille de la police sur les articles de ArretSurImages.net",
+  "author": "rmat0n",
+  "license": "ISC",
+
+  "homepage": "https://github.com/rmat0n/arretsurimage-fontsize",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rmat0n/arretsurimage-fontsize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rmat0n/arretsurimage-fontsize/issues"
+  },
+
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-rename": "^1.2.0"
+  }
+}
