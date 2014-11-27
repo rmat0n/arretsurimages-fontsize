@@ -5,6 +5,6 @@ chrome/*.png
 chrome/jquery*.js
 chrome/fonts.js
 
-safari/gaminglive-hd-link.safariextension/*.png
-safari/gaminglive-hd-link.safariextension/jquery*.js
-safari/gaminglive-hd-link.safariextension/fonts.js
+safari/arretsurimage-fontsize.safariextension/*.png
+safari/arretsurimage-fontsize.safariextension/jquery*.js
+safari/arretsurimage-fontsize.safariextension/fonts.js
