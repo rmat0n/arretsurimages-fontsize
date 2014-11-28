@@ -10,9 +10,9 @@ $(document).ready(function () {
   }
 
   // Add font buttons
-  var minus = '<a href="#" class="font-size minus" style="float: right; margin-top: 5px; margin-left: 5px"><img src="http://www.shanul.com/App_Themes/Default-en-US/Images//Tools/MinusText.png"></a>';
-  var standard = '<a href="#" class="font-size standard" style="float: right; margin-top: 5px; margin-left: 5px"><img src="http://www.shanul.com/App_Themes/Default-en-US/Images//Tools/DefaultSize.png"></a>';
-  var plus = '<a href="#" class="font-size plus" style="float: right; margin-top: 5px"><img src="http://www.shanul.com/App_Themes/Default-en-US/Images//Tools/PlusText.png"></a>';
+  var minus = '<a href="#" class="font-size minus" style="float: right; margin-top: 5px; margin-left: 5px"><img src="https://raw.githubusercontent.com/rmat0n/arretsurimages-fontsize/master/images/minus.png"></a>';
+  var standard = '<a href="#" class="font-size standard" style="float: right; margin-top: 5px; margin-left: 5px"><img src="https://raw.githubusercontent.com/rmat0n/arretsurimages-fontsize/master/images/standard.png"></a>';
+  var plus = '<a href="#" class="font-size plus" style="float: right; margin-top: 5px"><img src="https://raw.githubusercontent.com/rmat0n/arretsurimages-fontsize/master/images/plus.png"></a>';
 
   var $optionsArticle = $("#options-article");
   if ($optionsArticle.length > 0) { // articles, chroniques et emissions
