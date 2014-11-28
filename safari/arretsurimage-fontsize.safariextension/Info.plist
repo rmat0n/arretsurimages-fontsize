@@ -33,6 +33,7 @@
 		</dict>
 		<key>Whitelist</key>
 		<array>
+			<string>http://www.arretsurimages.net/chroniques/*</string>
 			<string>http://www.arretsurimages.net/articles/*</string>
 			<string>http://www.arretsurimages.net/breves/*</string>
 			<string>http://www.arretsurimages.net/emissions/*</string>
