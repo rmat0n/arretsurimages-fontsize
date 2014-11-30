@@ -8,21 +8,22 @@ gulp.task('lint', function() {
     .pipe(jshint.reporter('default'));
 });
 
+gulp.task('config', function() {
+  return gulp.src('package.json')
+    .pipe(gulp.dest('firefox'));
+});
+
 gulp.task('scripts', function() {
   return gulp.src('libs/*.js')
     .pipe(gulp.dest('chrome'))
-    .pipe(gulp.dest('safari/arretsurimage-fontsize.safariextension'));
-});
-
-gulp.task('images', function() {
-  return gulp.src('images/*.png')
-    .pipe(gulp.dest('chrome'))
-    .pipe(gulp.dest('safari/arretsurimage-fontsize.safariextension'));
+    .pipe(gulp.dest('safari/arretsurimage-fontsize.safariextension'))
+    .pipe(gulp.dest('firefox/data'));
 });
 
 gulp.task('icons', function() {
   return gulp.src('icons/*.png')
     .pipe(gulp.dest('chrome'))
+    .pipe(gulp.dest('firefox/icons'))
     .pipe(rename(function (path) {
       path.basename = path.basename.substring(0, 4) + "-" + path.basename.substring(4);
     }))
@@ -31,8 +32,7 @@ gulp.task('icons', function() {
 
 gulp.task('watch', function() {
   gulp.watch('libs/*.js', ['lint', 'scripts']);
-  gulp.watch('images/*.png', ['images']);
   gulp.watch('icons/*.png', ['icons']);
 });
 
-gulp.task('default', ['lint', 'scripts', 'images', 'icons', 'watch']);
+gulp.task('default', ['lint', 'config', 'scripts', 'icons', 'watch']);

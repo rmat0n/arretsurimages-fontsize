@@ -5,6 +5,11 @@ chrome/*.png
 chrome/jquery*.js
 chrome/fonts.js
 
+firefox/package.json
+firefox/data/jquery*.js
+firefox/data/fonts.js
+firefox/icons/*
+
 safari/arretsurimage-fontsize.safariextension/*.png
 safari/arretsurimage-fontsize.safariextension/jquery*.js
 safari/arretsurimage-fontsize.safariextension/fonts.js
