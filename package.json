@@ -9,13 +9,13 @@
   "icon": "icons/icon48.png",
   "icon64": "icons/icon64.png",
 
-  "homepage": "https://github.com/rmat0n/arretsurimage-fontsize",
+  "homepage": "https://github.com/rmat0n/arretsurimages-fontsize",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rmat0n/arretsurimage-fontsize.git"
+    "url": "git://github.com/rmat0n/arretsurimages-fontsize.git"
   },
   "bugs": {
-    "url": "https://github.com/rmat0n/arretsurimage-fontsize/issues"
+    "url": "https://github.com/rmat0n/arretsurimages-fontsize/issues"
   },
 
   "devDependencies": {

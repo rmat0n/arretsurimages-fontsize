@@ -16,7 +16,7 @@ gulp.task('config', function() {
 gulp.task('scripts', function() {
   return gulp.src('libs/*.js')
     .pipe(gulp.dest('chrome'))
-    .pipe(gulp.dest('safari/arretsurimage-fontsize.safariextension'))
+    .pipe(gulp.dest('safari/arretsurimages-fontsize.safariextension'))
     .pipe(gulp.dest('firefox/data'));
 });
 
@@ -27,7 +27,7 @@ gulp.task('icons', function() {
     .pipe(rename(function (path) {
       path.basename = path.basename.substring(0, 4) + "-" + path.basename.substring(4);
     }))
-    .pipe(gulp.dest('safari/arretsurimage-fontsize.safariextension'));
+    .pipe(gulp.dest('safari/arretsurimages-fontsize.safariextension'));
 });
 
 gulp.task('watch', function() {
